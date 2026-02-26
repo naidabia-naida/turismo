@@ -1,0 +1,32 @@
+
+.corpo img{
+    width: 100%;
+}
+
+
+    
+footer ul{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: darkgoldenrod;
+    width: 0 auto;
+    height: auto;
+
+}
+
+footer ul li{
+    list-style: none;
+    margin: 10px;
+
+}
+
+footer ul li a img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+footer ul li a img:hover{
+    border: 2px solid white;
+    transform: scale(1.2);
+}

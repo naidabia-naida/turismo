@@ -1,0 +1,61 @@
+.corpo{
+    
+    background-image: url('../img/na.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: azure;
+
+}
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+header{
+    background: url('../img/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-family: Arial, sans-serif;
+}
+
+
+   footer{
+    background-color: rgb(248, 141, 2);
+    width: 100%;
+
+}
+   footer p{
+    text-align: center;
+   }
+       
+   footer ul{
+       display: flex;
+       justify-content: center;
+       margin-right: 20px;
+   
+   }
+   
+   footer ul li{
+       list-style: none;
+       margin-right: 10px;
+   
+   }
+   
+   footer ul li a img{
+       width: 40px;
+       border-radius: 50%;
+   }
+   
+   footer ul li a img:hover{
+       border: 2px solid white;
+       transform: scale(1.2);
+   }
+   
