@@ -48,6 +48,9 @@
     
 
 }
+.box, p a{
+    list-style: none;
+}
 
 
 
